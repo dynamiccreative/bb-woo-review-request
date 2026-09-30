@@ -1,0 +1,184 @@
+# Copyright (C) 2026 bleuebuzz
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: BB Woo Review Request 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-29 14:28+0000\n"
+"X-Domain: bb-woo-review-request\n"
+
+#: src/Email/ReviewRequestEmail.php:48
+msgid "Demande d’avis"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:49
+msgid "Envoyé au client quelques jours après le passage de sa commande en « Terminée », pour l’inviter à donner son avis sur les produits achetés. Une relance facultative peut suivre. Chaque e-mail contient un lien d’opposition."
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:182
+msgid "Que pensez-vous de votre commande sur {site_title} ?"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:189
+msgid "Petit rappel : votre avis nous serait précieux"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:198
+msgid "Votre avis compte"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:208
+msgid ""
+"Bonjour {customer_first_name},\n"
+"\n"
+"Nous nous permettons de revenir vers vous : si vous avez un instant, votre avis sur votre commande n° {order_number} nous serait précieux. Il ne vous prendra qu’une minute."
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:209
+msgid ""
+"Bonjour {customer_first_name},\n"
+"\n"
+"Vous avez reçu votre commande n° {order_number} il y a quelques jours : nous espérons qu’elle vous donne entière satisfaction.\n"
+"\n"
+"Votre avis aide les autres clients à faire leur choix et nous aide à nous améliorer. Il ne vous prendra qu’une minute."
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:343 src/Email/ReviewRequestEmail.php:411
+msgid "Donner mon avis"
+msgstr ""
+
+#. translators: %s: liste des placeholders.
+#: src/Email/ReviewRequestEmail.php:362
+msgid "Placeholders disponibles : %s"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:369
+msgid "Délai d’envoi (jours)"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:371
+msgid "Nombre de jours après le passage de la commande en « Terminée ». Laissez au client le temps de recevoir et d’essayer ses produits."
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:380
+msgid "Relance (jours)"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:382
+msgid "Nombre de jours après la demande. 0 = pas de relance. La relance n’est pas envoyée si le client a déjà noté tous ses produits."
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:391
+msgid "Lien « Donner mon avis »"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:396
+msgid "Fiches produit (avis WooCommerce)"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:397
+msgid "Lien externe (Google, Trustpilot, Avis Vérifiés…)"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:401
+msgid "Lien externe"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:403
+msgid "Adresse de votre page d’avis (ex. lien « Écrire un avis » de votre fiche Google). Utilisé seulement si « Lien externe » est choisi."
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:409
+msgid "Libellé du bouton"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:415
+msgid "Produits déjà notés"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:417
+msgid "Ne pas redemander d’avis sur un produit que le client a déjà noté"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:423
+msgid "Texte d’introduction"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:431
+msgid "Sujet de la relance"
+msgstr ""
+
+#: src/Email/ReviewRequestEmail.php:438
+msgid "Texte d’introduction de la relance"
+msgstr ""
+
+#: src/Admin/OrderActions.php:41
+msgid "Envoyer la demande d’avis"
+msgstr ""
+
+#: src/Admin/OrderActions.php:58
+msgid "Demande d’avis envoyée manuellement au client."
+msgstr ""
+
+#: src/Admin/OrderActions.php:59
+msgid "Demande d’avis non envoyée : client opposé aux demandes d’avis, adresse manquante ou aucun produit à noter."
+msgstr ""
+
+#. translators: %s: version minimale de WooCommerce.
+#: src/Plugin.php:133
+msgid "BB Woo Review Request nécessite WooCommerce %s ou supérieur. Le plugin est inactif."
+msgstr ""
+
+#: src/Scheduler.php:140
+msgid "Relance de la demande d’avis envoyée au client."
+msgstr ""
+
+#: src/Scheduler.php:141
+msgid "Demande d’avis envoyée au client."
+msgstr ""
+
+#: src/OptOut.php:152 src/Privacy.php:36 src/Privacy.php:51 src/Privacy.php:69
+msgid "Demandes d’avis"
+msgstr ""
+
+#: src/OptOut.php:155
+msgid "Ce lien n’est pas valide. Copiez l’adresse complète depuis l’e-mail reçu."
+msgstr ""
+
+#: src/OptOut.php:167
+msgid "C’est noté : vous ne recevrez plus de demandes d’avis de notre part. Les e-mails liés à vos commandes (confirmation, expédition…) ne sont pas concernés."
+msgstr ""
+
+#: src/OptOut.php:173
+msgid "Vous ne souhaitez plus recevoir de demandes d’avis après vos achats ? Confirmez ci-dessous. Les e-mails liés à vos commandes (confirmation, expédition…) ne sont pas concernés."
+msgstr ""
+
+#: src/OptOut.php:174
+msgid "Ne plus recevoir de demandes d’avis"
+msgstr ""
+
+#: src/Privacy.php:73
+msgid "Opposition aux demandes d’avis"
+msgstr ""
+
+#: src/Privacy.php:96
+msgid "L’opposition aux demandes d’avis est conservée, sous forme d’empreinte non réversible de l’adresse, pour continuer à la respecter."
+msgstr ""
+
+#: src/Privacy.php:112
+msgid "Quelques jours après la livraison de votre commande, nous pouvons vous envoyer un e-mail vous invitant à donner votre avis sur les produits achetés, éventuellement suivi d’une relance. Cet envoi repose sur notre intérêt légitime à recueillir l’avis de nos clients. Vous pouvez vous y opposer à tout moment grâce au lien présent dans chaque e-mail : nous conservons alors une empreinte non réversible de votre adresse pour respecter votre choix. Aucune mesure d’ouverture ou de clic n’est effectuée."
+msgstr ""
+
+#: templates/emails/plain/customer-review-request.php:44 templates/emails/customer-review-request.php:80
+msgid "Vous ne souhaitez plus recevoir de demandes d’avis ?"
+msgstr ""
+
+#: templates/emails/customer-review-request.php:63
+msgid "Noter ce produit"
+msgstr ""
+
+#: templates/emails/customer-review-request.php:81
+msgid "Ne plus recevoir ces e-mails"
+msgstr ""
