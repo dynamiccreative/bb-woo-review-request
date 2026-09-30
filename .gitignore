@@ -1,1 +1,7 @@
 /build/
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

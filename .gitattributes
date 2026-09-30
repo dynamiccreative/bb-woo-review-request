@@ -1,0 +1,3 @@
+# Exclus des archives (git archive, zip des releases)
+.gitignore     export-ignore
+.gitattributes export-ignore
