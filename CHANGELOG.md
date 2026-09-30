@@ -1,11 +1,5 @@
 # Changelog
 
-## Non publié
-
-- Un seul produit à noter : le bouton principal y mène et le produit est rappelé dessous, sans lien en double. Plusieurs produits : plus de bouton principal (il ne menait qu'au premier), un bouton « Noter ce produit » par ligne.
-- Liste des produits aux couleurs de la charte de BB Woo Mail Layout (le lien prenait la couleur de base WooCommerce) ; vignettes 80 px recadrées côté serveur (`woocommerce_thumbnail`).
-- Avec le pied de page de BB Woo Mail Layout, le lien d'opposition est affiché tout en bas de l'e-mail, dans le pied de page.
-
 ## 0.1.0
 
 - Première version : e-mail WooCommerce « Demande d'avis » (`customer_review_request`), désactivé par défaut.
@@ -15,3 +9,6 @@
 - Exporteur et effaceur RGPD, texte suggéré pour la politique de confidentialité.
 - Action « Envoyer la demande d'avis » sur la fiche commande ; note de commande à chaque envoi.
 - Intégration à BB Woo Mail Layout 1.4.1+ (facultative) : mise en page du layout, intro et bouton dans son en-tête, intro modifiable dans son onglet E-mails.
+- Un seul produit à noter : le bouton principal y mène et le produit est rappelé dessous, sans lien en double. Plusieurs produits : pas de bouton principal, un bouton « Noter ce produit » par ligne.
+- Liste des produits aux couleurs de la charte de BB Woo Mail Layout (sinon couleur de base des e-mails WooCommerce) ; vignettes 80 px recadrées côté serveur (`woocommerce_thumbnail`).
+- Avec le pied de page de BB Woo Mail Layout, le lien d'opposition est affiché tout en bas de l'e-mail, dans le pied de page.
